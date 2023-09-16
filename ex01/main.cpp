@@ -6,7 +6,7 @@
 /*   By: kalmheir <kalmheir@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 19:15:42 by kalmheir          #+#    #+#             */
-/*   Updated: 2023/09/16 20:06:18 by kalmheir         ###   ########.fr       */
+/*   Updated: 2023/09/16 20:08:45 by kalmheir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,8 @@ int main(void) {
     iter(arr2, 5, print);
     iter(arr3, 5, print);
     
+    delete[] arr;
+    delete[] arr2;
+    delete[] arr3;
     return (0);
 }
