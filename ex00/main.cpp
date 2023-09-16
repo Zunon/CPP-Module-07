@@ -6,7 +6,7 @@
 /*   By: kalmheir <kalmheir@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 19:10:15 by kalmheir          #+#    #+#             */
-/*   Updated: 2023/09/16 19:35:54 by kalmheir         ###   ########.fr       */
+/*   Updated: 2023/09/16 20:05:27 by kalmheir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,11 +50,11 @@ int main(void) {
     std::cout << "min(c, d) = " << ::min(c, d) << std::endl;
     std::cout << "max(c, d) = " << ::max(c, d) << std::endl;
 
-    Awesome a(2), b(4);
-    swap(a, b);
-    std::cout << a << " " << b << std::endl;
-    std::cout << max(a, b) << std::endl;
-    std::cout << min(a, b) << std::endl;
+    Awesome e(2), f(4);
+    ::swap(e, f);
+    std::cout << e << " " << f << std::endl;
+    std::cout << ::max(e, f) << std::endl;
+    std::cout << ::min(e, f) << std::endl;
 
     return (0);
 }
